@@ -47,12 +47,12 @@ const cardsData: CardData[] = [
 
 export function CardsBanner() {
   return (
-    <div className="flex justify-center w-full py-10">
+    <div className="flex justify-center w-full py-10  ">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 w-full">
         {cardsData.map((card, i) => (
           <Card
             key={i}
-            className={`p-4 transition-all hover:scale-[1.03] hover:shadow-lg cursor-pointer rounded-2xl ${
+            className={`p-2 transition-all hover:scale-[1.03] hover:shadow-lg cursor-pointer rounded-2xl ${
               card.bg || "bg-white dark:bg-neutral-900"
             }`}
           >
