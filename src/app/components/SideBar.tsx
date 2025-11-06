@@ -18,7 +18,7 @@ import {
 const sidebarItems = [
   { title: "Dashboard", icon: LayoutDashboard, href: "/pages/dashboard" },
   { title: "Transições", icon: Wallet, href: "/pages/transation" },
-  { title: "Relatórios", icon: TrendingUp, href: "/pages/relatorios" },
+  { title: "Investimento", icon: TrendingUp, href: "/pages/relatorios" },
   { title: "Orçamentos", icon: Dock, href: "/pages/orcament" },
   { title: "Carteira", icon: Wallet, href: "/pages/wallet" },
   { title: "Configurações", icon: Settings, href: "/pages/more" },
@@ -66,7 +66,7 @@ export function SideBar() {
                         <span>{title}</span>
                       </Link>
                     </SidebarMenuButton>
-                  </SidebarMenuItem>
+                    </SidebarMenuItem>
                 )
               })}
             </SidebarMenu>
