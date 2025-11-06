@@ -16,12 +16,12 @@ import {
 } from "@/components/ui/sidebar"
 
 const sidebarItems = [
-  { title: "Dashboard", icon: LayoutDashboard, href: "/pages/dashboard" },
-  { title: "Transições", icon: Wallet, href: "/pages/transation" },
-  { title: "Investimento", icon: TrendingUp, href: "/pages/investiment" },
-  { title: "Orçamentos", icon: Dock, href: "/pages/orcament" },
-  { title: "Carteira", icon: Wallet, href: "/pages/wallet" },
-  { title: "Configurações", icon: Settings, href: "/pages/more" },
+  { title: "Dashboard", icon: LayoutDashboard, href: "/" },
+  { title: "Transições", icon: Wallet, href: "/dashboard/transation" },
+  { title: "Investimento", icon: TrendingUp, href: "/dashboard/investiment" },
+  { title: "Orçamentos", icon: Dock, href: "/dashboard/orcament" },
+  { title: "Carteira", icon: Wallet, href: "/dashboard/wallet" },
+  { title: "Configurações", icon: Settings, href: "/dashboard/more" },
 ]
 
 export function SideBar() {

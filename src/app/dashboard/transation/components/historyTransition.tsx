@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { ArrowDownUp, Download, Search } from "lucide-react";
-import { exportPDF , exportCSV } from "@/app/utils/export";
+import { exportPDF , exportCSV } from "@/app/dashboard/utils/export";
 import { ExportButton } from "./exportButtom";
 interface Transacao {
   id: number;

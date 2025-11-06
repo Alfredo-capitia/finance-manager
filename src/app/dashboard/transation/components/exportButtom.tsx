@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Download } from "lucide-react";
-import { exportPDF, exportCSV } from "@/app/utils/export";
+import { exportPDF, exportCSV } from "@/app/dashboard/utils/export";
 
 
  interface Transacao {

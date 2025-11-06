@@ -53,7 +53,7 @@ export function ChartItem(){
         </div>
      </div>
      <section className="h-[310px] w-full">
-        <ChartContainer config={chartConfig.dinheiro} className="h-full w-full">
+        <ChartContainer config={chartConfig} className="h-full w-full">
         <LineChart data={data}
         accessibilityLayer
         margin={{ left: 10, right: 0, top:0, bottom: 0 }}>
