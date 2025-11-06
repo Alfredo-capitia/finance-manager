@@ -1,5 +1,6 @@
 import { Plus } from "lucide-react";
 import { CardsAnalitics } from "./components/cards";
+import { WalletInvest } from "./components/walletInvest";
 export default function RelatóriosPage()
 {
     return (
@@ -17,8 +18,8 @@ export default function RelatóriosPage()
                 </p>
             </div>
      </div>
-
             <CardsAnalitics />
+            <WalletInvest />
         </div>
     )
 }
